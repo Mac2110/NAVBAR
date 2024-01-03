@@ -1,0 +1,105 @@
+[
+    {
+      "name": "Home",
+      "id": 1,
+      "icon":"bi bi-chevron-down",
+      "submenu":{
+      "children": [
+        {
+            "label":"All",
+            "id":10,
+            "url":"/home/all"
+        },
+        {
+            "label":"Movies",
+            "id":11,
+            "url":"/home/movies"
+        },
+        {
+            "label":"TV shows",
+            "id":12,
+            "url":"/home/tvshows"
+        }
+      ]
+    }
+    },
+    {
+        "name": "Store",
+        "id": 2,
+        "icon":"bi bi-chevron-down",
+        "submenu":{
+        "children": [
+          {
+            "label":"All",
+            "id":20,
+            "url":"/store/all"
+          },
+          {
+            "label":"Rent",
+            "id":21,
+            "url":"/store/rent"
+          },
+          {
+            "label":"Channels",
+            "id":22,
+            "url":"/store/channels"
+          }
+        ]
+      }
+    },
+    {
+      "name":"Live TV",
+      "id":4,
+      "url":"/live/livetv",
+      "submenu":{
+       "children":[ ]
+      }
+     },
+    {
+      "name": "Categories",
+      "id": 5,
+      "icon":"bi bi-chevron-down",
+      "submenu":{
+      "children": [
+        {
+          "label":"Action & Adventure",
+          "id":50,
+          "url":"/categories/action&adventure"
+        },
+        {
+          "label":"Animated",
+          "id":51,
+          "url":"/categories/animated"
+        },
+        {
+          "label":"Comedy",
+          "id":52,
+          "url":"/categories/comedy"
+        },
+        {
+          "label":"Documentary",
+          "id":53,
+          "url":"/categories/documentary"
+        },
+        {
+          "label":"Drama",
+          "id":54,
+          "url":"/categories/drama"
+        },
+        {
+          "label":"Fantasy",
+          "id":55,
+          "url":"/categories/fantasy"
+        }
+      ]
+    }
+  },
+  {
+    "name":"Try for free",
+    "id":6,
+    "url":"/try/tryforfree",
+    "submenu":{
+     "children":[ ]
+    }
+   }
+]
