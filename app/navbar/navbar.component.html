@@ -4,9 +4,9 @@
   </button>
     <a class="navbar-brand"  routerLink="/megamenu">MegaMenu</a>      
     <div class="dropdown" id="navbarColor03"  *ngFor="let item of jsonData">
-     <button type="button" class="btn btn-dark" routerLink='{{item.url}}'>{{item.name}} <i class="{{item.icon}}"></i></button>
+     <button type="button" class="btn btn-dark" [routerLink]='item.url'>{{item.name}} <i class="{{item.icon}}"></i></button>
       <div class="dropdown-content" >
-        <a routerLink='{{res.url}}' *ngFor="let res of item.submenu.children">
+        <a [routerLink]='res.url' *ngFor="let res of item.submenu.children">
           {{res.label}} </a>
       </div>
     </div>
